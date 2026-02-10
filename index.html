@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>Connections - Valentine's Edition</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Floating hearts background -->
+  <div class="hearts-bg" aria-hidden="true"></div>
+
+  <div class="game-container">
+    <header class="game-header">
+      <h1 class="game-title">Connections</h1>
+      <p class="game-subtitle">Valentine's Day Edition</p>
+      <p class="game-instructions">Find four groups of four words that share a connection.</p>
+    </header>
+
+    <!-- Toast notification -->
+    <div class="toast" id="toast"></div>
+
+    <!-- Solved groups appear here -->
+    <div class="solved-groups" id="solved-groups"></div>
+
+    <!-- Word grid -->
+    <div class="grid" id="grid"></div>
+
+    <!-- Mistakes remaining -->
+    <div class="mistakes" id="mistakes">
+      <span>Mistakes remaining:</span>
+      <div class="mistake-dots" id="mistake-dots"></div>
+    </div>
+
+    <!-- Action buttons -->
+    <div class="actions">
+      <button class="btn btn-secondary" id="shuffle-btn">Shuffle</button>
+      <button class="btn btn-secondary" id="deselect-btn">Deselect All</button>
+      <button class="btn btn-primary" id="submit-btn" disabled>Submit</button>
+    </div>
+
+    <!-- Game over overlay -->
+    <div class="game-over-overlay" id="game-over-overlay">
+      <div class="game-over-content" id="game-over-content"></div>
+    </div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
