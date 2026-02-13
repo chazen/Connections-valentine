@@ -5,14 +5,14 @@
 
 const GROUPS = [
   {
-    name: "Valentine's Day Gifts",
-    words: ["ROSES", "CHOCOLATE", "JEWELRY", "TEDDY"],
+    name: "Maggie's Valentines Gifts",
+    words: ["ROSES", "ELMS", "BRACELETS", "BALLOONS"],
     color: "yellow",
     difficulty: 0,
   },
   {
-    name: "Terms of Endearment",
-    words: ["HONEY", "SUGAR", "BABY", "ANGEL"],
+    name: "Maggie's Favorite Things",
+    words: ["FOOTBALL", "MASSAGES", "SLEEPING", "HOLIDAYS"],
     color: "green",
     difficulty: 1,
   },
